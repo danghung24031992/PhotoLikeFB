@@ -303,15 +303,18 @@
 				TargetAttributes = {
 					8D29EB201CBB8DD400E088A1 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = VR4FL4F2YS;
 						LastSwiftMigration = 0800;
 					};
 					8D29EB341CBB8DD400E088A1 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = VR4FL4F2YS;
 						LastSwiftMigration = 0800;
 						TestTargetID = 8D29EB201CBB8DD400E088A1;
 					};
 					8D29EB3F1CBB8DD400E088A1 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = VR4FL4F2YS;
 						LastSwiftMigration = 0800;
 						TestTargetID = 8D29EB201CBB8DD400E088A1;
 					};
@@ -532,9 +535,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VR4FL4F2YS;
 				INFOPLIST_FILE = PhotoViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nathanblamires.PhotoViewer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dh.PhotoViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -544,9 +548,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VR4FL4F2YS;
 				INFOPLIST_FILE = PhotoViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nathanblamires.PhotoViewer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dh.PhotoViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -556,6 +561,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VR4FL4F2YS;
 				INFOPLIST_FILE = PhotoViewerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nathanblamires.PhotoViewerTests;
@@ -569,6 +575,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VR4FL4F2YS;
 				INFOPLIST_FILE = PhotoViewerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nathanblamires.PhotoViewerTests;
@@ -581,6 +588,7 @@
 		8D29EB501CBB8DD400E088A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = VR4FL4F2YS;
 				INFOPLIST_FILE = PhotoViewerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nathanblamires.PhotoViewerUITests;
@@ -593,6 +601,7 @@
 		8D29EB511CBB8DD400E088A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = VR4FL4F2YS;
 				INFOPLIST_FILE = PhotoViewerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nathanblamires.PhotoViewerUITests;
