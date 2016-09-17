@@ -34,8 +34,8 @@ class PhotoViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var moreButton: UIButton!
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var contentView: UIView!
-    @IBOutlet weak var contentWidthConstraint: NSLayoutConstraint!
-    
+//    @IBOutlet weak var contentWidthConstraint: NSLayoutConstraint!
+
     // data
     var allPhotoScrollViews: Array<UIScrollView> = []
     var allPhotos: Array<Photo> = []
@@ -127,7 +127,7 @@ class PhotoViewController: UIViewController, UIScrollViewDelegate {
     // ensure scroll view has correct content size when the view size changes
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        contentWidthConstraint.constant = CGFloat(allPhotos.count) * scrollView.frame.size.width
+//        contentWidthConstraint.constant = CGFloat(allPhotos.count) * scrollView.frame.size.width
         if !scrollViewDragging {
             scrollView.contentOffset = CGPoint(x: CGFloat(currentPhotoIndex) * scrollView.frame.size.width, y: 0)
         }
